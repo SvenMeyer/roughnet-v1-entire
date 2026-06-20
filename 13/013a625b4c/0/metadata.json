@@ -1,0 +1,48 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "13013a625b4c",
+  "session_id": "074f2908-57d2-4964-a9b8-6d291b1ebcb6",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-20T18:17:11.446266144Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".gitignore"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-8",
+  "turn_id": "4988241333d7",
+  "token_usage": {
+    "input_tokens": 56139,
+    "cache_creation_tokens": 261796,
+    "cache_read_tokens": 2785033,
+    "output_tokens": 62210,
+    "api_call_count": 33
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-20T18:17:11.430101928Z",
+    "agent_lines": 63,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 63,
+    "total_lines_changed": 63,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 199,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".claude/agents/entire-search.md": 25,
+        ".claude/settings.json": 84,
+        ".factory/settings.json": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+create `.gitignore` with defaults for a typescript NEXTjs project ,add         .claude/
+        .entire/
+        .factory/
+ , commit and push
