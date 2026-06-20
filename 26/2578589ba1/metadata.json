@@ -1,0 +1,43 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "262578589ba1",
+  "strategy": "manual-commit",
+  "branch": "feat/primary-subscription-dvp-issue-3",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "apps/web/.env.example",
+    "apps/web/app/api/portfolio/route.ts",
+    "apps/web/app/page.tsx",
+    "apps/web/components/Portfolio.tsx",
+    "apps/web/components/SubscriptionPanel.tsx",
+    "apps/web/lib/db/index.ts",
+    "apps/web/lib/db/memory.ts",
+    "apps/web/lib/db/neon.ts",
+    "apps/web/lib/db/schema.sql",
+    "apps/web/lib/db/settlements.test.ts",
+    "apps/web/lib/db/settlements.ts",
+    "apps/web/lib/offering/config.ts",
+    "apps/web/lib/portfolio/holdings.test.ts",
+    "apps/web/lib/portfolio/holdings.ts",
+    "packages/contracts/package.json",
+    "packages/contracts/script/DeployOffering.s.sol",
+    "packages/contracts/src/PrimaryOffering.sol",
+    "packages/contracts/src/mocks/MockStablecoin.sol",
+    "packages/contracts/test/PrimaryOffering.t.sol"
+  ],
+  "sessions": [
+    {
+      "metadata": "/26/2578589ba1/0/metadata.json",
+      "transcript": "/26/2578589ba1/0/full.jsonl",
+      "content_hash": "/26/2578589ba1/0/content_hash.txt",
+      "prompt": "/26/2578589ba1/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 17401,
+    "cache_creation_tokens": 202527,
+    "cache_read_tokens": 5679650,
+    "output_tokens": 60343,
+    "api_call_count": 61
+  }
+}
