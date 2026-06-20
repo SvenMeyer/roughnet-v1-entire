@@ -1,0 +1,26 @@
+create `.gitignore` with defaults for a typescript NEXTjs project ,add         .claude/
+        .entire/
+        .factory/
+ , commit and push
+
+---
+
+`.entire/settings.json` must be exclude from `.gitignore` we need that in the remote , fix and push
+
+---
+
+/ask-matt
+
+---
+
+/setup-matt-pocock-skills
+
+---
+
+commit and push
+
+---
+
+change request : to not have to rely on Ctrl ALt infrastructure during development, we will develop the full smart contracts and related Web UI , and use Ethereum Sepolia , Polygon mainet , base mainnet as possible deployment targets. Later when we deploy to the real world and integrated with Ctrl Alt, we may use their infrastructure for certain functionality. I.e. KYC here we use just a mock page which always return 'ok' , later this will be replaced by some real process. Use mock when needed, add an issue or sub-issue in such cases so that we know we have to add the real implementation later.
+We want to deploy frontend on vercel, will go with their neon database (Postgresql compatible), wallet login we will keep simple for self-custodial wallets like metamask. 
+We want to deploy on vercel , using their Postgresql compatible neon database.
