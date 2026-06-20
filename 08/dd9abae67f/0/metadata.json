@@ -1,0 +1,80 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "08dd9abae67f",
+  "session_id": "074f2908-57d2-4964-a9b8-6d291b1ebcb6",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-20T18:28:39.01004531Z",
+  "branch": "main",
+  "checkpoints_count": 2,
+  "save_step_count": 1,
+  "files_touched": [],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-8",
+  "turn_id": "5079c91a0481",
+  "token_usage": {
+    "input_tokens": 56663,
+    "cache_creation_tokens": 282511,
+    "cache_read_tokens": 5764045,
+    "output_tokens": 75124,
+    "api_call_count": 52
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-ask-matt-2026-06-20T18:22:00.441945985Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "ask-matt"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "c2c8aec076b1",
+      "timestamp": "2026-06-20T18:22:00.441945985Z",
+      "native": {
+        "command": "/ask-matt"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/ask-matt",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "prompt-skill-claude-code-setup-matt-pocock-skills-2026-06-20T18:23:45.651369619Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "setup-matt-pocock-skills"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "5079c91a0481",
+      "timestamp": "2026-06-20T18:23:45.651369619Z",
+      "native": {
+        "command": "/setup-matt-pocock-skills"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/setup-matt-pocock-skills",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}
