@@ -1,0 +1,137 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "ca65b14c84fc",
+  "session_id": "882debef-6bf8-40d3-8799-62245c02d0b5",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-20T19:10:19.995709115Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "files_touched": [
+    ".github/workflows/ci.yml",
+    ".gitmodules",
+    ".node-version",
+    "README.md",
+    "apps/web/.env.example",
+    "apps/web/.eslintrc.json",
+    "apps/web/app/api/records/route.ts",
+    "apps/web/app/globals.css",
+    "apps/web/app/layout.tsx",
+    "apps/web/app/page.tsx",
+    "apps/web/app/providers.tsx",
+    "apps/web/components/RegistryDemo.tsx",
+    "apps/web/lib/chains.ts",
+    "apps/web/lib/contract.ts",
+    "apps/web/lib/db/index.ts",
+    "apps/web/lib/db/memory.test.ts",
+    "apps/web/lib/db/memory.ts",
+    "apps/web/lib/db/neon.ts",
+    "apps/web/lib/db/repository.ts",
+    "apps/web/lib/db/schema.sql",
+    "apps/web/lib/serverReads.ts",
+    "apps/web/lib/wagmi.ts",
+    "apps/web/next.config.mjs",
+    "apps/web/package.json",
+    "apps/web/tsconfig.json",
+    "apps/web/vitest.config.ts",
+    "package.json",
+    "packages/contracts/.env.example",
+    "packages/contracts/.gitignore",
+    "packages/contracts/foundry.toml",
+    "packages/contracts/lib/forge-std",
+    "packages/contracts/package.json",
+    "packages/contracts/script/Deploy.s.sol",
+    "packages/contracts/src/RoughNetRegistry.sol",
+    "packages/contracts/test/RoughNetRegistry.t.sol",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "tsconfig.base.json",
+    "turbo.json"
+  ],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-8",
+  "turn_id": "8616b67c7d97",
+  "token_usage": {
+    "input_tokens": 9629,
+    "cache_creation_tokens": 85745,
+    "cache_read_tokens": 4642249,
+    "output_tokens": 51408,
+    "api_call_count": 81
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-implement-2026-06-20T18:53:37.305489579Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "implement"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "8616b67c7d97",
+      "timestamp": "2026-06-20T18:53:37.305489579Z",
+      "native": {
+        "command": "/implement"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/implement",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "claude-skill-toolu_013sw3aQPz5WCPGB6txdgRim",
+      "event_type": "tool_invocation",
+      "skill": {
+        "name": "code-review"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "skill_tool_use",
+        "confidence": "explicit"
+      },
+      "turn_id": "8616b67c7d97",
+      "transcript_anchor": {
+        "unit": "line",
+        "start": 374,
+        "end": 375,
+        "entry_ids": [
+          "2f7eccfc-d9d6-48d1-b756-8d9badc01658"
+        ],
+        "tool_use_id": "toolu_013sw3aQPz5WCPGB6txdgRim"
+      },
+      "native": {
+        "tool_name": "Skill",
+        "tool_use_id": "toolu_013sw3aQPz5WCPGB6txdgRim"
+      },
+      "collapse": {
+        "target": "tool_pair",
+        "label": "Skill: code-review",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "initial_attribution": {
+    "calculated_at": "2026-06-20T19:10:19.982475865Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 10392,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 10392,
+    "total_lines_changed": 10392,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}

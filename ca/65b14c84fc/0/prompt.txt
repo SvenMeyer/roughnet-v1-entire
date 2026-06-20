@@ -1,0 +1,1 @@
+/implement issue #1, using docs-dev/RoughNet-BRD-v2-Opus4.8.md as the PRD
