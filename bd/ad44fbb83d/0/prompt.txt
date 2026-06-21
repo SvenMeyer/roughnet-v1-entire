@@ -1,0 +1,7 @@
+<task-notification>
+<task-id>bigev0f8t</task-id>
+<tool-use-id>REDACTED</tool-use-id>
+<output-file>/tmp/claude-1000/-home-sum-DEV-ETH-YD-RoughNet-RoughNet-v1/59d89617-5574-429c-9741-aa9e72248c37/tasks/bigev0f8t.output</output-file>
+<status>completed</status>
+<summary>Background command "Request review and poll for README PR" completed (exit code 0)</summary>
+</task-notification>
