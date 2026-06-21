@@ -1,0 +1,13 @@
+- good call to implement on a new branch and actually if you can we should update the `/implement` SKILL.md to reflect that.
+- we should also add that add the end we should create a PR and then kick of the review cycle according to `AGENTS-PR-review.md`
+do that now
+
+---
+
+<task-notification>
+<task-id>bj8ntu5d9</task-id>
+<tool-use-id>toolu_019dTozao8pvoTwWVKNdx8QR</tool-use-id>
+<output-file>/tmp/claude-1000/-home-sum-DEV-ETH-YD-RoughNet-RoughNet-v1/59d89617-5574-429c-9741-aa9e72248c37/tasks/bj8ntu5d9.output</output-file>
+<status>completed</status>
+<summary>Background command "Poll for Copilot review in background" completed (exit code 0)</summary>
+</task-notification>
