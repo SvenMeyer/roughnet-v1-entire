@@ -1,0 +1,89 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "0a0cafa75038",
+  "session_id": "6641e2df-8fa0-446d-add7-84ba0cfe01ad",
+  "strategy": "manual-commit",
+  "created_at": "2026-06-21T07:05:48.011111083Z",
+  "branch": "feat/primary-subscription-dvp-issue-3",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [],
+  "agent": "Claude Code",
+  "model": "claude-opus-4-8",
+  "turn_id": "d4c37b6b3a20",
+  "token_usage": {
+    "input_tokens": 45123,
+    "cache_creation_tokens": 1069496,
+    "cache_read_tokens": 247476469,
+    "output_tokens": 425056,
+    "api_call_count": 656
+  },
+  "skill_events_version": 1,
+  "skill_events": [
+    {
+      "id": "prompt-skill-claude-code-implement-2026-06-20T23:15:34.018292164Z",
+      "event_type": "prompt_invocation",
+      "skill": {
+        "name": "implement"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "prompt_slash_command",
+        "confidence": "explicit"
+      },
+      "turn_id": "981b2204b0ab",
+      "timestamp": "2026-06-20T23:15:34.018292164Z",
+      "native": {
+        "command": "/implement"
+      },
+      "collapse": {
+        "target": "user_message",
+        "label": "/implement",
+        "default_collapsed": true
+      }
+    },
+    {
+      "id": "claude-skill-toolu_01LeyXnLGLpkhKbPo4NfnWF3",
+      "event_type": "tool_invocation",
+      "skill": {
+        "name": "code-review"
+      },
+      "source": {
+        "agent": "claude-code",
+        "signal": "skill_tool_use",
+        "confidence": "explicit"
+      },
+      "turn_id": "d4c37b6b3a20",
+      "transcript_anchor": {
+        "unit": "line",
+        "start": 371,
+        "end": 372,
+        "entry_ids": [
+          "6f41baf7-7363-4670-a98a-f24a8e51edb7"
+        ],
+        "tool_use_id": "toolu_01LeyXnLGLpkhKbPo4NfnWF3"
+      },
+      "native": {
+        "tool_name": "Skill",
+        "tool_use_id": "toolu_01LeyXnLGLpkhKbPo4NfnWF3"
+      },
+      "collapse": {
+        "target": "tool_pair",
+        "label": "Skill: code-review",
+        "default_collapsed": true
+      }
+    }
+  ],
+  "session_metrics": {
+    "turn_count": 43
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 249,
+      "agent_lines_removed": 0
+    }
+  ]
+}
