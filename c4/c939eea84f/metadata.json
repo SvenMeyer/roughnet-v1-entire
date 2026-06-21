@@ -1,0 +1,56 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "c4c939eea84f",
+  "strategy": "manual-commit",
+  "branch": "feat/chain-source-of-truth-issue-15",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "CHANGELOG.md",
+    "README.md",
+    "apps/web/.env.example",
+    "apps/web/app/api/portfolio/route.ts",
+    "apps/web/app/api/records/route.ts",
+    "apps/web/components/Portfolio.tsx",
+    "apps/web/components/RegistryDemo.tsx",
+    "apps/web/components/SubscriptionPanel.tsx",
+    "apps/web/lib/db/index.ts",
+    "apps/web/lib/db/memory.test.ts",
+    "apps/web/lib/db/memory.ts",
+    "apps/web/lib/db/neon.ts",
+    "apps/web/lib/db/repository.ts",
+    "apps/web/lib/db/schema.sql",
+    "apps/web/lib/db/settlements.test.ts",
+    "apps/web/lib/db/settlements.ts",
+    "apps/web/lib/fromBlock.ts",
+    "apps/web/lib/portfolio/aggregate.test.ts",
+    "apps/web/lib/portfolio/aggregate.ts",
+    "apps/web/lib/portfolio/decode.test.ts",
+    "apps/web/lib/portfolio/decode.ts",
+    "apps/web/lib/portfolio/holdings.test.ts",
+    "apps/web/lib/portfolio/holdings.ts",
+    "apps/web/lib/portfolio/onchain.ts",
+    "apps/web/lib/portfolio/verify.ts",
+    "apps/web/lib/records/verify.ts",
+    "apps/web/lib/registry/onchain.ts",
+    "apps/web/lib/writeGuard.ts",
+    "docs/ARCHITECTURE.md",
+    "docs/adr/0008-onchain-verified-read-model.md",
+    "docs/adr/0009-chain-as-single-source-of-truth.md",
+    "docs/adr/README.md"
+  ],
+  "sessions": [
+    {
+      "metadata": "/c4/c939eea84f/0/metadata.json",
+      "transcript": "/c4/c939eea84f/0/full.jsonl",
+      "content_hash": "/c4/c939eea84f/0/content_hash.txt",
+      "prompt": "/c4/c939eea84f/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 12103,
+    "cache_creation_tokens": 265897,
+    "cache_read_tokens": 10522319,
+    "output_tokens": 79577,
+    "api_call_count": 85
+  }
+}
