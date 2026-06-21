@@ -1,0 +1,7 @@
+<task-notification>
+<task-id>bfcyh3miw</task-id>
+<tool-use-id>toolu_01RLmij7RXuy5z2oKRAiGCKm</tool-use-id>
+<output-file>/tmp/claude-1000/-home-sum-DEV-ETH-YD-RoughNet-RoughNet-v1/59d89617-5574-429c-9741-aa9e72248c37/tasks/bfcyh3miw.output</output-file>
+<status>completed</status>
+<summary>Background command "Poll for Copilot review loop 3" completed (exit code 0)</summary>
+</task-notification>
