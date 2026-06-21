@@ -1,0 +1,7 @@
+<task-notification>
+<task-id>bfszhrqwo</task-id>
+<tool-use-id>REDACTED</tool-use-id>
+<output-file>/tmp/claude-1000/-home-sum-DEV-ETH-YD-RoughNet-RoughNet-v1/59d89617-5574-429c-9741-aa9e72248c37/tasks/bfszhrqwo.output</output-file>
+<status>completed</status>
+<summary>Background command "Poll for Copilot review loop 4" completed (exit code 0)</summary>
+</task-notification>

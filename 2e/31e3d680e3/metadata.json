@@ -1,0 +1,26 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "2e31e3d680e3",
+  "strategy": "manual-commit",
+  "branch": "feat/chain-source-of-truth-issue-15",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "apps/web/lib/portfolio/onchain.ts",
+    "apps/web/lib/registry/aggregate.test.ts"
+  ],
+  "sessions": [
+    {
+      "metadata": "/2e/31e3d680e3/0/metadata.json",
+      "transcript": "/2e/31e3d680e3/0/full.jsonl",
+      "content_hash": "/2e/31e3d680e3/0/content_hash.txt",
+      "prompt": "/2e/31e3d680e3/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 145,
+    "cache_creation_tokens": 6797,
+    "cache_read_tokens": 1964852,
+    "output_tokens": 5940,
+    "api_call_count": 8
+  }
+}
