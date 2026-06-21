@@ -1,0 +1,23 @@
+{
+  "cli_version": "0.7.7",
+  "checkpoint_id": "c77c9e0f04e0",
+  "strategy": "manual-commit",
+  "branch": "feat/primary-subscription-dvp-issue-3",
+  "checkpoints_count": 1,
+  "files_touched": null,
+  "sessions": [
+    {
+      "metadata": "/c7/7c9e0f04e0/0/metadata.json",
+      "transcript": "/c7/7c9e0f04e0/0/full.jsonl",
+      "content_hash": "/c7/7c9e0f04e0/0/content_hash.txt",
+      "prompt": "/c7/7c9e0f04e0/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 34365,
+    "cache_creation_tokens": 860764,
+    "cache_read_tokens": 104111886,
+    "output_tokens": 263256,
+    "api_call_count": 391
+  }
+}
